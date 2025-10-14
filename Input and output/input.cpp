@@ -50,3 +50,12 @@ int main() {
     return 0;
 }
 
+
+// Char 
+
+int main() {
+    char ch;
+    cin >> ch;
+    cout << ch;
+    return 0;
+}
