@@ -1,0 +1,10 @@
+2025-10-20T09:27:25.357Z INFO SharedStateManager initialized
+2025-10-20T09:27:25.358Z INFO Is remote: false
+2025-10-20T09:27:25.359Z INFO Starting Local. Installation path: undefined
+2025-10-20T09:27:25.359Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-20T09:27:25.362Z INFO Installation path exists: c:\Users\somes\OneDrive\Desktop\CPP Basics\DSA in CPP\Logical Thinking\Pattern Problems
+2025-10-20T09:27:25.363Z INFO Initializing database with URL: file:C:\Users\somes\AppData\Local\Temp\pythagora-temp\pythagora.db
+2025-10-20T09:27:25.367Z INFO Database file exists, skipping prisma generate/push for faster startup
+2025-10-20T09:27:25.368Z INFO Database initialized successfully
+2025-10-20T09:27:25.368Z INFO [Migration] Checking for database migration...
+2025-10-20T09:27:25.854Z INFO [Migration] No migration needed
