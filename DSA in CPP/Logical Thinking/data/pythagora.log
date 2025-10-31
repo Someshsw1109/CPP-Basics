@@ -46,3 +46,41 @@ Extra context: {
 2025-10-30T05:03:44.882Z INFO Database initialized successfully
 2025-10-30T05:03:44.882Z INFO [Migration] Checking for database migration...
 2025-10-30T05:03:45.241Z INFO [Migration] No migration needed
+2025-10-30T14:18:56.082Z INFO Closing entire Pythagora extension...
+2025-10-30T14:18:56.142Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new XN (file:///c:/Users/somes/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:111538)
+    at f5.U (file:///c:/Users/somes/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116148)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/somes/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:113642)
+    at Wb.g (file:///c:/Users/somes/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:41004)
+    at Wb.executeCommand (file:///c:/Users/somes/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:40508)
+    at Object.executeCommand (file:///c:/Users/somes/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:170:31026)
+    at closeEntirePythagoraExtension (c:\Users\somes\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\extension.js:390:31)
+    at Object.deactivate (c:\Users\somes\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\extension.js:295:15)
+    at PJ.eb (file:///c:/Users/somes/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:11724)
+    at file:///c:/Users/somes/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:9874
+    at Array.map (<anonymous>)
+    at PJ.$ (file:///c:/Users/somes/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:9862)
+    at PJ.terminate (file:///c:/Users/somes/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:10105)
+    at v2.terminate (file:///c:/Users/somes/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:1434)
+    at us (file:///c:/Users/somes/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:225:5702)
+    at MessagePortMain.<anonymous> (file:///c:/Users/somes/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:225:2249)
+    at MessagePortMain.emit (node:events:524:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.topLevelDomainCallback (node:domain:161:15)
+    at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+Extra context: {
+  "message": "Canceled"
+}
+2025-10-31T07:43:47.060Z INFO SharedStateManager initialized
+2025-10-31T07:43:47.061Z INFO Is remote: false
+2025-10-31T07:43:47.062Z INFO Starting Local. Installation path: undefined
+2025-10-31T07:43:47.062Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-31T07:43:47.063Z INFO Installation path exists: c:\Users\somes\OneDrive\Desktop\CPP Basics\DSA in CPP\Logical Thinking\Pattern Problems
+2025-10-31T07:43:47.064Z INFO Initializing database with URL: file:C:\Users\somes\AppData\Local\Temp\pythagora-temp\pythagora.db
+2025-10-31T07:43:47.066Z INFO Database file exists, skipping prisma generate/push for faster startup
+2025-10-31T07:43:47.066Z INFO Database initialized successfully
+2025-10-31T07:43:47.067Z INFO [Migration] Checking for database migration...
+2025-10-31T07:43:47.377Z INFO [Migration] No migration needed
